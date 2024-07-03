@@ -1,0 +1,17 @@
+<div class="d-flex flex-column p-25">
+ <img [src]="product.image" alt="" class="img-fluid rounded" srcset="">
+  <div class="content_container">
+    <span class="discount_price">{{product.discountPrice}}</span>
+    <div class="product_section">
+     <p class="m-0 mb-1 pt-2">
+      <span class="product_brand">{{product.brandName}}</span>
+      <span class="px-1">{{product.productName}}</span>
+     </p>
+    </div>
+    <span class="rental">{{product.productSize}}</span>
+    <p class="rental">
+      <span>{{product.productPrice}}</span>
+      <span class="px-1">{{product.productType}}</span>
+    </p>
+  </div>
+</div>

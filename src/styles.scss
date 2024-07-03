@@ -1,0 +1,58 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+body {
+  background-color: #f4f4f4;
+}
+
+.p-25{
+  padding: 25px;
+}
+.discount_price{
+  width: 71px;
+  height: 15px;
+  flex-grow: 0;
+  font-family: Lora;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.36px;
+  text-align: right;
+  color: #898989;
+}
+
+.product_section span{
+  height: 56px;
+  align-self: stretch;
+  flex-grow: 0;
+  font-family: Lora;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  text-align: left;
+  color: #141414;
+}
+.product_brand{
+  color: #a8917f !important;
+}
+
+.rental{
+  height: 24px;
+  align-self: stretch;
+  flex-grow: 0;
+  font-family: Lora;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #383838;
+}
